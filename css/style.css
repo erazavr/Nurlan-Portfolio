@@ -1,0 +1,337 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  min-width: 320px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 30px;
+}
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* ==================== Header ==================== */
+
+.header {
+  background-color: black;
+}
+.main-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* ==================== Promo ==================== */
+.header,
+.promo {
+  color: #ffffff;
+}
+
+.promo {
+  position: relative;
+  margin: 0 0 100px;
+}
+
+.promo__inner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.promo-title {
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ==================== About Me ==================== */
+
+.about-me {
+  color: #000000;
+  margin: 0 0 100px;
+}
+
+.about-me__inner {
+  display: flex;
+  position: relative;
+}
+
+.avatar {
+  width: 500px;
+  height: 100%;
+}
+
+.about-me__inner::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  bottom: -30px;
+}
+
+.about-me__content {
+  margin: 0 0 0 3rem;
+}
+
+.about-me__title {
+  font-size: 34px;
+  margin: 0 0 30px 0;
+}
+
+.about-me__text {
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 2em;
+}
+
+/* ==================== Social ==================== */
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 1rem 0 0;
+  border: 1px solid #6a6a6a;
+  border-radius: 50%;
+  transition: background 0.1s linear;
+}
+
+.social-inner {
+  margin: 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.social__item:hover {
+  background-color: #6a6a6a;
+}
+
+.social__item:hover .social__icon {
+  fill: #ffffff;
+}
+
+.social__icon {
+  display: block;
+  height: 18px;
+  fill: #6a6a6a;
+}
+
+/* ==================== Selected Works ==================== */
+.selectedWorks {
+  margin: 0 0 100px;
+}
+.selectedWorks__title {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 50px;
+  padding: 30px 0 0;
+}
+.selectedWorks__inner {
+  position: relative;
+}
+.selectedWorks__inner h1 {
+  text-align: center;
+}
+.selectedWorks__inner .selectedWorks__title {
+  font-size: 50px;
+}
+
+.selectedWorks__inner-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 0;
+}
+.selectedWorks__inner-videos__item {
+  margin: 0 10px 20px 0;
+}
+.selectedWorks__inner-videos__item h3 {
+  margin: 0 0 10px;
+}
+.selectedWorks__inner::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  bottom: -30px;
+}
+
+/* ==================== Movies ==================== */
+
+.movies {
+  margin: 0 0 100px;
+}
+.movies__title {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 50px;
+  padding: 30px 0 0;
+}
+.movies__inner {
+  position: relative;
+}
+.movies__inner h1 {
+  text-align: center;
+}
+.movies__posters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 0 0;
+}
+.movies__posters img {
+  width: 500px;
+  height: 450px;
+}
+.movie__poster {
+  margin: 0 10px 30px 0;
+}
+.movies__inner::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  bottom: -30px;
+}
+/* ==================== Radio ==================== */
+.radio {
+  margin: 0 0 100px;
+}
+.radio h1 {
+  text-align: center;
+}
+.radio__title {
+  text-align: center;
+  margin: 0 0 30px;
+  font-size: 50px;
+}
+.radio__inner {
+  position: relative;
+}
+.radio-pic {
+  margin: 30px 0 0;
+}
+.radio__audios {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.radio__item {
+  margin: 0 0 80px;
+}
+.radio__item audio {
+  width: 500px;
+}
+/* ==================== Tools ==================== */
+.tools {
+  margin-bottom: 100px;
+}
+.tools__title {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.tools__inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tools__item {
+  margin: 0 30px 0 0;
+}
+.tools__inner img {
+  width: 300px;
+  height: 200px;
+}
+.tools__name {
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px 0px 10px 40px;
+  background-size: contain;
+  margin: 10px 0;
+}
+.pro-tools {
+  background-image: url(../img/pro-tools.png);
+}
+.cubase {
+  background-image: url(../img/cubase.png);
+}
+.reaper {
+  background-image: url(../img/reaper.png);
+  padding-left: 50px;
+}
+
+/* ==================== Footer ==================== */
+.footer {
+  padding: 50px 20px;
+  background-color: #1f1e1d;
+  margin-top: auto;
+  color: #ffffff;
+}
+.footer__content {
+  display: flex;
+}
+.footer__info {
+  margin-right: 50px;
+}
+.footer__name {
+  margin-bottom: 20px;
+}
