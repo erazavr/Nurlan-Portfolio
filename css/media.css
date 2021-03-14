@@ -98,3 +98,13 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 410px) {
+  .selectedWorks__title,
+  .selectedWorks__inner .selectedWorks__title,
+  .movies__title,
+  .radio__title,
+  .tools__title {
+    font-size: 20px;
+  }
+}
