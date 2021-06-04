@@ -249,6 +249,10 @@ img {
   left: 0;
   bottom: -30px;
 }
+.movie__poster-4 img {
+  height: 470px;
+}
+
 /* ==================== Radio ==================== */
 .radio {
   margin: 0 0 100px;
