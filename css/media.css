@@ -1,3 +1,9 @@
+@media (min-width: 1050px) {
+  .movie__poster {
+    margin-right: 10px;
+  }
+}
+
 @media (max-width: 1000px) {
   .promo {
     margin: 0 0 50px;
@@ -76,7 +82,7 @@
     width: 100%;
   }
   .movies__posters img {
-    width: 100%;
+    width: 300px;
     height: 300px;
   }
   .tools__item {
